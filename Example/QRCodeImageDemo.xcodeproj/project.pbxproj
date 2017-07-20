@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1035716946EA63BE766E902B /* Pods_QRCodeImageDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F88F8472BD8E3386DD449A7 /* Pods_QRCodeImageDemo_Example.framework */; };
+		14167F181F2077BD003272DF /* UIImage+QRCodeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167F171F2077BD003272DF /* UIImage+QRCodeExtension.m */; };
 		58D1F42F6F1EBDC435511AD3 /* Pods_QRCodeImageDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCE2DF691500921FCAD53FD /* Pods_QRCodeImageDemo_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14167F161F2077BD003272DF /* UIImage+QRCodeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCodeExtension.h"; sourceTree = "<group>"; };
+		14167F171F2077BD003272DF /* UIImage+QRCodeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCodeExtension.m"; sourceTree = "<group>"; };
 		4BCB7FF3DAD1C2C6B344FE27 /* Pods-QRCodeImageDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeImageDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeImageDemo_Example/Pods-QRCodeImageDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54BACCCB61822D2D7E6ABA9B /* Pods-QRCodeImageDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeImageDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeImageDemo_Tests/Pods-QRCodeImageDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QRCodeImageDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeImageDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +64,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89C3F52CA5A7D5CE4CD9A568 /* Pods-QRCodeImageDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeImageDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeImageDemo_Example/Pods-QRCodeImageDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B931BCAB699A33CA5DF098E /* QRCodeImageDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QRCodeImageDemo.podspec; path = ../QRCodeImageDemo.podspec; sourceTree = "<group>"; };
+		8B931BCAB699A33CA5DF098E /* QRCodeImageDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QRCodeImageDemo.podspec; path = ../QRCodeImageDemo.podspec; sourceTree = "<group>"; };
 		8FCE2DF691500921FCAD53FD /* Pods_QRCodeImageDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeImageDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F88F8472BD8E3386DD449A7 /* Pods_QRCodeImageDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeImageDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DC05FDDC087E57932B385C /* Pods-QRCodeImageDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeImageDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeImageDemo_Tests/Pods-QRCodeImageDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8BF4BC1D2EED11EB50E3A2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E56D342BBB197D4000E1DC4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D8BF4BC1D2EED11EB50E3A2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E56D342BBB197D4000E1DC4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 			children = (
 				6003F59C195388D20070C39A /* YRAppDelegate.h */,
 				6003F59D195388D20070C39A /* YRAppDelegate.m */,
+				14167F161F2077BD003272DF /* UIImage+QRCodeExtension.h */,
+				14167F171F2077BD003272DF /* UIImage+QRCodeExtension.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YRViewController.h */,
 				6003F5A6195388D20070C39A /* YRViewController.m */,
@@ -397,6 +402,7 @@
 				6003F59E195388D20070C39A /* YRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				14167F181F2077BD003272DF /* UIImage+QRCodeExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

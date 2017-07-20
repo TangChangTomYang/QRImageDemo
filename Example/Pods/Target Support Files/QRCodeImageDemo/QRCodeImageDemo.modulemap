@@ -1,0 +1,6 @@
+framework module QRCodeImageDemo {
+  umbrella header "QRCodeImageDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

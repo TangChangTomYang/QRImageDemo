@@ -1,0 +1,16 @@
+PODS:
+  - QRCodeImageDemo (0.1.0)
+
+DEPENDENCIES:
+  - QRCodeImageDemo (from `../`)
+
+EXTERNAL SOURCES:
+  QRCodeImageDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QRCodeImageDemo: a6b8ed32ebc1e494eebfaf61af256bf61dd9d6a1
+
+PODFILE CHECKSUM: 068fccbf60b70778bbb5beb6a0beb291d2bd849f
+
+COCOAPODS: 1.2.1
